@@ -1,0 +1,18 @@
+name: Hatırlatıcı
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Her 2 saatte bir çalıştır
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Hatırlatıcı İşlemi
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.8'
+
+    - name: Hatırlatıcı Kodunu Çalıştır
+      run: python reminder.py
