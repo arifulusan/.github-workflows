@@ -32,7 +32,7 @@ def send_email(to_email, subject, message):
 def main():
     while True:
         # 2 saatte bir hatırlatıcı e-posta gönder
-        send_email('maviliadam1@gmail.com', 'Su İçme Hatırlatıcı', 'Su iç amcık')
+        send_email('ulusanarif@gmail.com', 'Su İçme Hatırlatıcı', 'Su iç amcık')
         
         # 2 saat bekleme
         time.sleep(2 * 60 * 60)  # 2 saat = 2 * 60 dakika * 60 saniye
