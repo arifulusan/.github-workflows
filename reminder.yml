@@ -15,4 +15,4 @@ jobs:
         python-version: '3.8'
 
     - name: Hatırlatıcı Kodunu Çalıştır
-      run: python path/to/reminder.py
+      run: python reminder.py
