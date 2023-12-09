@@ -16,4 +16,4 @@ jobs:
         python-version: '3.8'
 
     - name: Hatırlatıcı Kodunu Çalıştır
-      run: python reminder.py
+      run: python gjgjgjgreminder.py
